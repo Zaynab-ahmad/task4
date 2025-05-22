@@ -8,7 +8,7 @@ interface MostTrendingCardProp {
 
 export default function MostTrendingCard({ src, price, dis, loc }: MostTrendingCardProp) {
   return (
-    <div className="MostTrendingCard FlexCol">
+    <div className="MostTrendingCard FlexCol Card">
       <img src={src} alt="" className="MostTrendingCardImg" />
       <div className="FlexCol ItemsStart">
         <div className="MostTrendingCardCon FlexCol">
