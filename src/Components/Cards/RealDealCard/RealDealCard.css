@@ -2,7 +2,7 @@
   padding: 1.4rem;
   position: relative;
   width: 100%;
-  aspect-ratio: 4 / 3;
+  aspect-ratio: 4 / 3.1;
 }
 .RealDealCardImg {
   position: absolute;
@@ -16,7 +16,7 @@
   gap: 0.7rem;
 }
 .label {
-  background-color: rgba(0, 0, 0, 0.37);
+  background-color: rgba(0, 0, 0, 0.35);
   color: white;
   border: 1px solid white;
   border-radius: 0.5rem;
@@ -24,4 +24,11 @@
   width: fit-content;
   position: relative;
   z-index: 10;
+  font-size: 1.2rem;
+  font-weight: 400;
+  line-height: 100%;
+}
+@media(max-width:992px){
+  .label{ padding: 0.6rem 1.2rem;
+  }
 }

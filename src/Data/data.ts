@@ -36,7 +36,7 @@ export const propertyData: PropertyType[] = [
   },
   {
     id: 4,
-    image: "/Images/Estate4.jpg",
+    image: "/Images/Estate1.jpg",
     category: "Commercial",
     featured: true,
     is3D: true,
@@ -57,7 +57,7 @@ export const propertyData: PropertyType[] = [
   },
   {
     id: 7,
-    image: "/Images/Estate4.jpg",
+    image: "/Images/Estate3.jpg",
     category: "Agriculture",
     featured: true,
     is3D: true,
@@ -71,7 +71,7 @@ export const propertyData: PropertyType[] = [
   },
   {
     id: 9,
-    image: "/Images/Estate4.jpg",
+    image: "/Images/Estate2.jpg",
     category: "Agriculture",
     featured: true,
     is3D: true,

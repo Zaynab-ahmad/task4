@@ -2,10 +2,12 @@
   border-radius: 1rem;
   padding: 2rem;
   box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
-  min-width: 100%;
+  max-width: 100%;
   gap: 1.6rem;
+
   .MostTrendingCardImg {
     width: 100%;
+    aspect-ratio: 4/3;
     border-radius: 1rem;
   }
   .MostTrendingCardPrice,
@@ -24,11 +26,13 @@
   .MostTrendingCardH {
     line-height: 2.9rem;
     width: 90%;
+    color: var(--primary-color-blackShade);
   }
   .MostTrendingCardLoc {
     gap: 0.2rem;
     p {
       color: var(--primary-color-blackShade);
+      font-size: 1.4rem;
     }
   }
 }

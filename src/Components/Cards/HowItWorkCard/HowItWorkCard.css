@@ -35,14 +35,12 @@
 }
 
 @media (max-width: 992px) {
-  
   .HowItWorkCard {
     max-width: 100%;
     padding: 3.4rem 1.7rem;
     flex: 1 1 100%;
     p {
-        font-size: 1.5rem;
- }
+      font-size: 1.5rem;
+    }
   }
-
 }

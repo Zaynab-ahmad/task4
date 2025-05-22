@@ -6,9 +6,8 @@
 .Tabs {
   gap: 5rem;
   font-size: 1.8rem;
-  text-wrap: no-wrap;
-  font-weight: 600;
-  padding-bottom: 4rem;
+  font-weight: 400;
+  padding-bottom: 5.5rem;
   overflow: scroll;
 }
 .Tabs::-webkit-scrollbar {
@@ -19,7 +18,9 @@
     white-space: nowrap; 
   }
 .ActiveTap {
+  color: var(--primary-color-blue);
   position: relative;
+  font-weight: 600;
 }
 
 .ActiveTap::after {
@@ -47,5 +48,6 @@
 @media (max-width: 576px) {
   .RealDealCards {
     grid-template-columns: repeat(1, 1fr);
+    gap: 2rem;
   }
 }
