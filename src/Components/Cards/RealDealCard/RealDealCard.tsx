@@ -2,7 +2,7 @@ import "./RealDealCard.css";
 import type { PropertyType } from "./../../../Data/data";
 export const RealDealCard = ({ image, featured, is3D }: PropertyType) => {
   return (
-    <div className="RealDealCard Card">
+    <div className="RealDealCard">
       <img src={image} alt="property" className="RealDealCardImg" />
       <div className="Labels Flex ">
         {featured && <span className="label">Featured</span>}
