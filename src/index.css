@@ -50,7 +50,15 @@ a {
 a:hover {
   color: var(--primary-color-blue);
 }
+.Card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 
+}
+
+.Card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 25px var(--primary-color-blue);
+}
 h2 {
   font-size: 6rem;
   line-height: 8rem;
