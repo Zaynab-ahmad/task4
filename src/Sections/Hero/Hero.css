@@ -9,7 +9,7 @@
   right: 0px;
   bottom: 0;
   z-index: 0;
-  width: 55%;
+  width: 65%;
 }
 .HeroContent {
   position: relative;
@@ -24,9 +24,10 @@
   }
 }
 .HeroInfo {
-  background-color: rgb(252, 250, 250);
-  background-color: rgba(255, 255, 255, 0.8);
+  background-color: rgba(255, 255, 255, 0.8); 
+  backdrop-filter: blur(16px);
   border-radius: 1.6rem;
+  margin-left: 7rem;
   padding: 2rem 5.8rem;
   gap: 6.37rem;
   max-width: fit-content;
@@ -58,7 +59,8 @@
     flex-direction: column;
     border-radius: 0rem;
     padding: 2rem;
+    margin: 0;
     gap: 2.4rem;
-    max-width: 100%;
+    max-width: 100vw;
   }
 }

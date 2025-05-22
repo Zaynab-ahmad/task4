@@ -35,6 +35,11 @@
   z-index: 200;
   position: relative;
 }
+.CloseIcon {
+  width: 2.4rem;
+  height: 2.4rem;
+  color: var(--primary-color-blue);
+}
 
 .MobileMenu {
   position: absolute;
@@ -76,7 +81,7 @@
 }
 
 .NavMenuItems.Active {
-  background-color: rgba(215, 230, 234, 1);
+  background-color: var(--primary-color-ActiveBlue);
   border: none;
 }
 

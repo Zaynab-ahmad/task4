@@ -49,7 +49,7 @@ export default function NavBar({ navLinks }: NavBarProps) {
         src={menuOpen ? "/Icons/close.svg" : "/Icons/bars.svg"}
         alt="Toggle Menu"
         onClick={handleMenuToggle}
-        className="MenuIcon"
+        className={`${menuOpen ? "CloseIcon" : "MenuIcon "}`}
         aria-expanded={menuOpen}
         aria-label="Toggle navigation menu"
       />

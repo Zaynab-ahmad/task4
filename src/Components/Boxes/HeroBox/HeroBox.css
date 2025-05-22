@@ -10,10 +10,12 @@
     font-size: 1.6rem;
     font-weight: 500;
     color: var(--primary-color-blackShade);
+    line-height: 2.4rem;
   }
   p {
     font-weight: 400;
     color: rgba(34, 34, 34, 0.5);
+    line-height: 2.4rem !important;
 
   }
 }

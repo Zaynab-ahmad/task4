@@ -9,8 +9,10 @@ export default function HowItWorkCard({ icon, title, content, isBlue }: howItWor
   return (
     <div className={`HowItWorkCard FlexCol ${isBlue ? "BlueCard" : ""}`}>
       <img src={icon} alt="" />
-      <h4>{title}</h4>
-      <p>{content}</p>
+      <div className="HowItWorkCardCon FlexCol">
+        <h4>{title}</h4>
+        <p>{content}</p>
+      </div>
     </div>
   );
 }
