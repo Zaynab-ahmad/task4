@@ -1,0 +1,51 @@
+.RealDealCards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 3rem;
+}
+.Tabs {
+  gap: 5rem;
+  font-size: 1.8rem;
+  text-wrap: no-wrap;
+  font-weight: 600;
+  padding-bottom: 4rem;
+  overflow: scroll;
+}
+.Tabs::-webkit-scrollbar {
+  display: none;
+}
+
+.Tabs a {
+    white-space: nowrap; 
+  }
+.ActiveTap {
+  position: relative;
+}
+
+.ActiveTap::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  background-color: var(--primary-color-blue);
+  left: 0;
+  bottom: -15px;
+}
+@media (max-width: 992px) {
+  .RealDealCards {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .Tabs {
+    gap: 3rem;
+    font-size: 1.6rem;
+    padding-bottom: 4.7rem;
+  }
+  .ActiveTap::after {
+    bottom: -7px;
+  }
+}
+@media (max-width: 576px) {
+  .RealDealCards {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}

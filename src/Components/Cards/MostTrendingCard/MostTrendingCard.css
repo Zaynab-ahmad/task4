@@ -1,0 +1,62 @@
+.MostTrendingCard {
+  border-radius: 1rem;
+  padding: 2rem;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+  min-width: 100%;
+  gap: 1.6rem;
+  .MostTrendingCardImg {
+    width: 100%;
+    border-radius: 1rem;
+  }
+  .MostTrendingCardPrice,
+  .MostTrendingCardH {
+    font-size: 1.8rem;
+    font-weight: 600;
+  }
+  .MostTrendingCardCon {
+    justify-content: start;
+    padding-bottom: 3.8rem;
+  }
+  .MostTrendingCardPrice {
+    color: var(--primary-color-blue);
+    line-height: 2.8rem;
+  }
+  .MostTrendingCardH {
+    line-height: 2.9rem;
+    width: 90%;
+  }
+  .MostTrendingCardLoc {
+    gap: 0.2rem;
+    p {
+      color: var(--primary-color-blackShade);
+    }
+  }
+}
+
+@media (max-width: 992px) {
+  .MostTrendingCard {
+    border-radius: 0.6rem;
+    padding: 1.6rem;
+    gap: 1.4rem;
+
+    .MostTrendingCardImg {
+      border-radius: 0.6rem;
+    }
+    .MostTrendingCardH {
+      line-height: 2.7rem;
+      width: 100%;
+      font-size: 1.6rem;
+    }
+    .MostTrendingCardLoc {
+      p {
+        font-size: 1.2rem;
+      }
+    }
+  }
+}
+@media (max-width: 576px) {
+  .MostTrendingCard {
+    width: 100%;
+  }
+    
+}

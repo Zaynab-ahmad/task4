@@ -1,0 +1,26 @@
+.HeroBox {
+  gap: 2rem;
+  justify-content: start;
+  width: 100%;
+}
+.HeroBoxCon {
+  gap: 1rem;
+  white-space: nowrap;
+  h3 {
+    font-size: 1.6rem;
+    font-weight: 500;
+    color: var(--primary-color-blackShade);
+  }
+  p {
+    font-weight: 400;
+    color: rgba(34, 34, 34, 0.5);
+
+  }
+}
+.HeroIcons {
+  background-color: rgb(144 181 209 / 10%);
+  width: 6rem;
+  height: 6rem;
+  border-radius: 50%;
+  padding: 1.5rem;
+}

@@ -1,0 +1,27 @@
+.RealDealCard {
+  padding: 1.4rem;
+  position: relative;
+  width: 100%;
+  aspect-ratio: 4 / 3;
+}
+.RealDealCardImg {
+  position: absolute;
+  object-fit: cover;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 0;
+}
+.Labels {
+  gap: 0.7rem;
+}
+.label {
+  background-color: rgba(0, 0, 0, 0.37);
+  color: white;
+  border: 1px solid white;
+  border-radius: 0.5rem;
+  padding: 0.1rem 1.2rem;
+  width: fit-content;
+  position: relative;
+  z-index: 10;
+}
