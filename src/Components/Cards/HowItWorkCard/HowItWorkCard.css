@@ -2,6 +2,7 @@
   max-width: 100%;
   align-items: start;
   padding: 3rem 4rem;
+  border-radius: 1.6rem;
   gap: 2rem;
 
   h4 {
@@ -21,11 +22,11 @@
     height: 4rem;
   }
 }
+
 .HowItWorkCardCon {
   gap: 1rem;
 }
 .BlueCard {
-  border-radius: 1.6rem;
   background-color: var(--primary-color-blue);
   color: white !important;
   h4,
